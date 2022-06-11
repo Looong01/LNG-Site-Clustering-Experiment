@@ -3,21 +3,45 @@
 #### 介绍
 人工智能原理课-LNG站点聚类实验
 
-#### 软件架构
-软件架构说明
+·出口站点  
+1.  天然气--甲烷含量超过95%  
+2.  温度降低到-162℃成为液体  
+3.  天然气依次通过Train，温度逐步降低  
+·运输  
+1.  LNG船舶  
+·进口站点  
+  
+·LNG数据  
+·数据  
+1.  LNG船舶3个月，航速静止（小于1节）的数据  
+2.  3590578条数据  
+·数据字段  
+1.  mmsi  
+2.  时间：Unix时间戳（秒）  
+3.  航行状态  
+4.  速度  
+5.  经度  
+6.  纬度  
+7.  吃水  
+  
+·目标：利用算法，快速准确的找出LNG站点  
 
+#### 软件架构
+1.  Windows 10/11 Pro
+2.  Python 3.9/3.10
+3.  (可选)Visual Studio Code等IDE
+4.  (可选)Anaconda/Miniconda等包管理工具
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  pip install pandas numpy matplotlib scikit-learn
+2.  pip install jupyter notebook
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  对于安装Jupyter notebook的环境，打开Run.ipynb，运行
+2.  对于Windows环境，右键Run.ps1，左键点击“使用Powershell运行“
+3.  对于其他环境（Linux、Macosx及其他类Unix环境），终端中输入sh ./Run.sh运行
 
 #### 参与贡献
 
