@@ -32,4 +32,3 @@ class data_loader:
         plt.title("Scatter plot of longitude and latitude")
         plt.scatter(self.lati, self.long, s=0.3)
         plt.savefig(self.cwd+'/output/Scatter.jpg')
-        plt.show()

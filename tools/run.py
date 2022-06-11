@@ -1,8 +1,8 @@
 #导入工具包
-from tools.preprocess import preprocess, distance
-from tools.data_loader import data_loader
-from tools.results_process import results_process
-from tools.predict import predict
+from preprocess import preprocess, distance, delete_file
+from data_loader import data_loader
+from results_process import results_process
+from predict import predict
 #使用sklearn
 from sklearn.cluster import KMeans, DBSCAN, OPTICS, AgglomerativeClustering
 
@@ -75,4 +75,4 @@ print("\tLNG出口点有: ", len(dic["import"]), "个")
 print("\t停泊点有: ", len(dic["mooring"]), "个")
 
 #删除预处理文件
-os.remove("./data/lng2_stop_spots.csv")
+delete_file("lng2_stop_spots.csv")
