@@ -93,7 +93,12 @@ def preprocess(lng2, lng_stop_spots):
     df.to_csv(lng_stop_spots_path,index=False,encoding="utf-8")
     del data
     del csv
-    del df
     del attri_list
     gc.collect()
     os.remove(temp_path)
+    return df
+
+def delete_file(file_path):
+    path = os.getcwd() + '/data/' + file_path
+    if os.path.exists(path):
+        os.remove(path)

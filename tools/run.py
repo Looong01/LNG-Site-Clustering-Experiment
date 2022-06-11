@@ -73,3 +73,6 @@ print("其中，")
 print("\tLNG出口点有: ", len(dic["export"]), "个")
 print("\tLNG出口点有: ", len(dic["import"]), "个")
 print("\t停泊点有: ", len(dic["mooring"]), "个")
+
+#删除预处理文件
+os.remove("./data/lng2_stop_spots.csv")
