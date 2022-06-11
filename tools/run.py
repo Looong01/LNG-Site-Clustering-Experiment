@@ -7,15 +7,15 @@ from predict import predict
 from sklearn.cluster import KMeans, DBSCAN, OPTICS, AgglomerativeClustering
 
 #数据预处理
-preprocess("lng2.csv", "Ing2_stop_spots.csv")
+preprocess("lng2.csv", "lng2_stop_spots.csv")
 
 #数据加载
-loader = data_loader("Ing2_stop_spots.csv")
+loader = data_loader("lng2_stop_spots.csv")
 data, coord = loader.load()
 loader.show_scatter()
 
 #使用K-means算法聚合数据
-clustering_kmeans = KMeans(n_clusters=300, init='random').fit(coord)
+clustering_kmeans = KMeans(n_clusters=400, init='random').fit(coord)
 dic = results_process(clustering_kmeans, data, "K-means", filename="lng_results_list(K-means).json")
 print("K-means")
 print("总数: ", len(clustering_kmeans.labels_))
@@ -27,7 +27,7 @@ print("\tLNG出口点有: ", len(dic["import"]), "个")
 print("\t停泊点有: ", len(dic["mooring"]), "个")
 
 #使用K-means++算法聚合数据
-clustering_kmeanspp = KMeans(n_clusters=300, init='k-means++').fit(coord)
+clustering_kmeanspp = KMeans(n_clusters=600, init='k-means++').fit(coord)
 dic = results_process(clustering_kmeanspp, data, "K-means++", filename="lng_results_list(K-means++).json")
 print("K-means++")
 print("总数: ", len(clustering_kmeanspp.labels_))
@@ -39,7 +39,7 @@ print("\tLNG出口点有: ", len(dic["import"]), "个")
 print("\t停泊点有: ", len(dic["mooring"]), "个")
 
 #使用DBSCAN算法聚合数据
-clustering_dbscan = DBSCAN(eps=1500, min_samples=6, n_jobs=-1,metric=distance).fit(data)
+clustering_dbscan = DBSCAN(eps=1000, min_samples=3, n_jobs=-1,metric=distance).fit(data)
 dic = results_process(clustering_dbscan, data, "DBSCAN", filename="lng_results_list(DBSCAN).json")
 print("DBSCAN")
 print("总数: ", len(clustering_dbscan.labels_))
@@ -51,7 +51,7 @@ print("\tLNG出口点有: ", len(dic["import"]), "个")
 print("\t停泊点有: ", len(dic["mooring"]), "个")
 
 #使用OPTICS算法聚合数据
-clustering_optics = OPTICS(min_samples=20).fit(data)
+clustering_optics = OPTICS(min_samples=10).fit(data)
 dic = results_process(clustering_optics, data, "OPTICS", filename="lng_results_list(OPTICS).json")
 print("OPTICS")
 print("总数: ", len(clustering_optics.labels_))
@@ -63,7 +63,7 @@ print("\tLNG出口点有: ", len(dic["import"]), "个")
 print("\t停泊点有: ", len(dic["mooring"]), "个")
 
 #使用AGNES算法聚合数据
-clustering_agnes = AgglomerativeClustering(n_clusters=300).fit(coord)
+clustering_agnes = AgglomerativeClustering(n_clusters=650).fit(coord)
 dic = results_process(clustering_agnes, data, "AGNES", filename="lng_results_list(AGNES).json")
 print("AGNES")
 print("总数: ", len(clustering_agnes.labels_))
