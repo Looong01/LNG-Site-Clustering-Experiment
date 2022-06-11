@@ -1,1 +1,1 @@
-python tools/run.py
+python ./tools/run.py
