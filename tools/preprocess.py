@@ -14,7 +14,7 @@ def preprocess(lng2, lng_stop_spots):
     temp_path = cwd + '/data/temp.csv'
     lng_stop_spots_path = cwd + '/data/' + lng_stop_spots
 
-    #转换假csv文件为真csv文件
+    # 转换假csv文件为真csv文件
     content = open(lng2_path)
     with open(temp_path, "w") as f:
         for line in content:
@@ -23,29 +23,16 @@ def preprocess(lng2, lng_stop_spots):
         content = f.read()
         f.seek(0, 0)
         f.write('id,time,status,velocity,long,lati,draft\n' + content)
-    
-    #筛选低速数据
+
+    # 筛选低速数据
     csv = pd.read_csv(temp_path)
-    data = {
-        'id':[],
-            'time':[],
-            'status':[],
-            'velocity':[],
-            'long':[],
-            'lati':[],
-            'draft':[]
-    }
-    attri_list = ['id','time','status','velocity','long','lati','draft']
-    for i in range(len(csv)):
-        if csv['status'][i] == 1 or csv['status'][i] == 5 or csv['status'][i] == 15:
-            for attri in attri_list:
-                data[attri].append(csv[attri][i])
-    df = pd.DataFrame(data)
+    status = csv['status'][:]
+    a = (status == 1) | (status == 5) | (status == 15)
+    b = csv[a]
+    df = pd.DataFrame(b)
     df.to_csv(temp_path,index=False,encoding="utf-8")
-    del data
     del csv
     del df
-    del attri_list
     gc.collect()
 
     #聚合同位数据
@@ -63,7 +50,6 @@ def preprocess(lng2, lng_stop_spots):
     draft_valid = []
     for i in range(len(csv)):   
         pt = [csv[attri][i] for attri in attri_list]
-    
         if distance(pt,tem_pt) < 5000:
             avg_pt[0] += pt[0]
             avg_pt[1] += pt[1]
@@ -71,7 +57,7 @@ def preprocess(lng2, lng_stop_spots):
                 draft_valid.append(pt[2])
             tem_pt = pt
             count += 1
-        else :
+        else:
             if count != 0:
                 data['long'].append(avg_pt[0] / count)
                 data['lati'].append(avg_pt[1] / count)
