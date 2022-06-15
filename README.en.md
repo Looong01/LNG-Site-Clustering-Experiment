@@ -34,9 +34,11 @@ Goal: Use algorithms to quickly and accurately identify LNG sites
 
 #### Installation
 
+```
 1.  pip install pandas numpy matplotlib scikit-learn
 2.  pip install jupyter notebook
 3.  Download the dataset "lng2.csv" from (https://yunpan.360.cn/surl_y2vpVKtEjLk （Extract code: ed65）) and move it to the folder "data"
+```
 
 #### Instructions
 

@@ -34,9 +34,11 @@
 
 #### 安装教程
 
+```
 1.  pip install pandas numpy matplotlib scikit-learn
 2.  pip install jupyter notebook
-3.  下载数据集”lng2.csv“，并移至data文件夹中（https://yunpan.360.cn/surl_y2vpVKtEjLk （提取码：ed65））  
+3.  下载数据集”lng2.csv“，并移至data文件夹中（https://yunpan.360.cn/surl_y2vpVKtEjLk （提取码：ed65）)
+```
 
 #### 使用说明
 
