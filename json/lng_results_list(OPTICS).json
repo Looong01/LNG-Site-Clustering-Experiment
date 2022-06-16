@@ -1,320 +1,468 @@
 {
-	{"code": 1, "latitude": 29.416130846726485, "longitude": -93.69786793273948, "isLNG": false, "IN": None}
-	{"code": 2, "latitude": 29.426779473540105, "longitude": -93.63679915753536, "isLNG": false, "IN": None}
-	{"code": 3, "latitude": 29.404895855890103, "longitude": -93.63947759236645, "isLNG": false, "IN": None}
-	{"code": 4, "latitude": 29.56610110007885, "longitude": -93.71854427594235, "isLNG": false, "IN": None}
-	{"code": 5, "latitude": 29.74299309140876, "longitude": -93.86950570247183, "isLNG": true, "IN": false}
-	{"code": 6, "latitude": 29.743572526607622, "longitude": -93.87126885740581, "isLNG": true, "IN": false}
-	{"code": 7, "latitude": 29.277483765234912, "longitude": -93.24295828723253, "isLNG": false, "IN": None}
-	{"code": 8, "latitude": 29.10151693371306, "longitude": -94.61345137341036, "isLNG": false, "IN": None}
-	{"code": 9, "latitude": 28.634570381808086, "longitude": -94.65959949666366, "isLNG": false, "IN": None}
-	{"code": 10, "latitude": 28.865544005675343, "longitude": -95.17075362310102, "isLNG": false, "IN": None}
-	{"code": 11, "latitude": 28.799482605013097, "longitude": -95.21431692100988, "isLNG": false, "IN": None}
-	{"code": 12, "latitude": 28.93843482251883, "longitude": -95.30728201771156, "isLNG": true, "IN": false}
-	{"code": 13, "latitude": 28.940028380123113, "longitude": -95.30887453169565, "isLNG": true, "IN": false}
-	{"code": 14, "latitude": 30.037655171897494, "longitude": -93.3333380671531, "isLNG": true, "IN": false}
-	{"code": 15, "latitude": 30.040377699971277, "longitude": -93.33313492235163, "isLNG": true, "IN": false}
-	{"code": 16, "latitude": 27.799350620589916, "longitude": -96.84908620556277, "isLNG": false, "IN": None}
-	{"code": 17, "latitude": 27.880046971819485, "longitude": -97.2667126978311, "isLNG": true, "IN": false}
-	{"code": 18, "latitude": 27.880674956718227, "longitude": -97.27095040848725, "isLNG": true, "IN": false}
-	{"code": 19, "latitude": 25.614555188282893, "longitude": -92.9789170329447, "isLNG": false, "IN": None}
-	{"code": 20, "latitude": 23.567700664297817, "longitude": -81.10442864895592, "isLNG": false, "IN": None}
-	{"code": 21, "latitude": 26.34418756927388, "longitude": -78.69205230577587, "isLNG": false, "IN": None}
-	{"code": 22, "latitude": 32.03818464769743, "longitude": -80.81912967687099, "isLNG": true, "IN": false}
-	{"code": 23, "latitude": 17.947321275514813, "longitude": -77.19911443656568, "isLNG": false, "IN": None}
-	{"code": 24, "latitude": 9.48443323408547, "longitude": -79.92897439363648, "isLNG": true, "IN": false}
-	{"code": 25, "latitude": 9.42431297079824, "longitude": -79.94745373952438, "isLNG": false, "IN": None}
-	{"code": 26, "latitude": 9.480218014314607, "longitude": -79.85462948711245, "isLNG": false, "IN": None}
-	{"code": 27, "latitude": 9.256217219678778, "longitude": -79.91424444319274, "isLNG": false, "IN": None}
-	{"code": 28, "latitude": 8.844023619796463, "longitude": -79.49888867999657, "isLNG": false, "IN": None}
-	{"code": 29, "latitude": 8.827084898294146, "longitude": -79.49095307617404, "isLNG": false, "IN": None}
-	{"code": 30, "latitude": 12.122213928136665, "longitude": -69.16600029366047, "isLNG": false, "IN": None}
-	{"code": 31, "latitude": 10.300675879942277, "longitude": -61.724111585335066, "isLNG": false, "IN": None}
-	{"code": 32, "latitude": 10.189494085858225, "longitude": -61.7013889082955, "isLNG": true, "IN": false}
-	{"code": 33, "latitude": 10.188725561877014, "longitude": -61.702689333403846, "isLNG": true, "IN": false}
-	{"code": 34, "latitude": 18.141094636978266, "longitude": -66.52955968596481, "isLNG": true, "IN": true}
-	{"code": 35, "latitude": 18.406995322534218, "longitude": -69.51032956692798, "isLNG": true, "IN": true}
-	{"code": 36, "latitude": 38.46554764520737, "longitude": -75.37633286529892, "isLNG": true, "IN": false}
-	{"code": 37, "latitude": -10.841089398779868, "longitude": -36.865718140284585, "isLNG": true, "IN": true}
-	{"code": 38, "latitude": -12.896718990011323, "longitude": -38.6349680982812, "isLNG": true, "IN": true}
-	{"code": 39, "latitude": -22.83517584749276, "longitude": -42.70326223559418, "isLNG": true, "IN": true}
-	{"code": 40, "latitude": -35.118671468542004, "longitude": -55.56140144935871, "isLNG": false, "IN": None}
-	{"code": 41, "latitude": -34.34255802707801, "longitude": -58.57135829367746, "isLNG": false, "IN": None}
-	{"code": 42, "latitude": -38.89576760672235, "longitude": -62.12867032492401, "isLNG": true, "IN": true}
-	{"code": 43, "latitude": -30.847096077882423, "longitude": -71.30461383057235, "isLNG": true, "IN": true}
-	{"code": 44, "latitude": -13.773394744870703, "longitude": -76.30964353719008, "isLNG": true, "IN": false}
-	{"code": 45, "latitude": -13.307199939584384, "longitude": -76.43719438129783, "isLNG": true, "IN": false}
-	{"code": 46, "latitude": 27.011997354806038, "longitude": -17.30076122260072, "isLNG": false, "IN": None}
-	{"code": 47, "latitude": 37.98974097564136, "longitude": -8.918956359796654, "isLNG": true, "IN": true}
-	{"code": 48, "latitude": 37.08121571316374, "longitude": -6.8999570932028575, "isLNG": true, "IN": true}
-	{"code": 49, "latitude": 36.47194791081281, "longitude": -6.589602067587464, "isLNG": false, "IN": None}
-	{"code": 50, "latitude": 36.16079904737351, "longitude": -5.401292761863976, "isLNG": false, "IN": None}
-	{"code": 51, "latitude": 36.12867221247977, "longitude": -5.380263480824002, "isLNG": false, "IN": None}
-	{"code": 52, "latitude": 36.10663345228121, "longitude": -5.360097786793328, "isLNG": false, "IN": None}
-	{"code": 53, "latitude": 36.09566227051574, "longitude": -5.401578700209554, "isLNG": false, "IN": None}
-	{"code": 54, "latitude": 37.40203226462851, "longitude": -0.9188504388880838, "isLNG": true, "IN": true}
-	{"code": 55, "latitude": 35.90224851821052, "longitude": -0.20840446163406903, "isLNG": false, "IN": None}
-	{"code": 56, "latitude": 35.86426899850296, "longitude": -0.22491278326862812, "isLNG": false, "IN": None}
-	{"code": 57, "latitude": 35.81867267159156, "longitude": -0.2564099212926012, "isLNG": true, "IN": false}
-	{"code": 58, "latitude": 35.81681112932505, "longitude": -0.22824081662024484, "isLNG": true, "IN": false}
-	{"code": 59, "latitude": 36.99295293808071, "longitude": 6.991433433532346, "isLNG": false, "IN": None}
-	{"code": 60, "latitude": 36.88564256185861, "longitude": 6.941828381989843, "isLNG": true, "IN": false}
-	{"code": 61, "latitude": 39.62984295591156, "longitude": -0.2071192633080711, "isLNG": true, "IN": true}
-	{"code": 62, "latitude": 43.07324023723175, "longitude": 4.883833943868222, "isLNG": false, "IN": None}
-	{"code": 63, "latitude": 43.41445703235945, "longitude": 4.8981226871722585, "isLNG": true, "IN": true}
-	{"code": 64, "latitude": 43.41463766341231, "longitude": 4.897897304920842, "isLNG": true, "IN": true}
-	{"code": 65, "latitude": 43.45079463759149, "longitude": 4.854255838245765, "isLNG": true, "IN": true}
-	{"code": 66, "latitude": 41.33084110111427, "longitude": 2.176625870164785, "isLNG": true, "IN": true}
-	{"code": 67, "latitude": 43.73197204707454, "longitude": 10.044841146555896, "isLNG": true, "IN": true}
-	{"code": 68, "latitude": 45.0921324164023, "longitude": 12.583489872060477, "isLNG": true, "IN": true}
-	{"code": 69, "latitude": 45.1602776247901, "longitude": 12.426654407242387, "isLNG": false, "IN": None}
-	{"code": 70, "latitude": 45.1982467780109, "longitude": 14.508118752940776, "isLNG": true, "IN": true}
-	{"code": 71, "latitude": 35.883853489205144, "longitude": 15.010807527114943, "isLNG": false, "IN": None}
-	{"code": 72, "latitude": 36.58457296096881, "longitude": 21.694437873321164, "isLNG": false, "IN": None}
-	{"code": 73, "latitude": 37.88685376283546, "longitude": 23.472817456282453, "isLNG": true, "IN": true}
-	{"code": 74, "latitude": 38.88984209156328, "longitude": 26.665913867298222, "isLNG": true, "IN": true}
-	{"code": 75, "latitude": 40.964696179364914, "longitude": 28.100973204217187, "isLNG": true, "IN": true}
-	{"code": 76, "latitude": 33.76378844275002, "longitude": 28.045857310065745, "isLNG": false, "IN": None}
-	{"code": 77, "latitude": 31.41404155818511, "longitude": 30.25947159096455, "isLNG": true, "IN": false}
-	{"code": 78, "latitude": 31.539707934584918, "longitude": 31.72432905579245, "isLNG": true, "IN": false}
-	{"code": 79, "latitude": 31.406868378121754, "longitude": 32.29228029318167, "isLNG": false, "IN": None}
-	{"code": 80, "latitude": 31.40594140425709, "longitude": 32.27750505782959, "isLNG": false, "IN": None}
-	{"code": 81, "latitude": 31.393193969881047, "longitude": 32.292691407387814, "isLNG": false, "IN": None}
-	{"code": 82, "latitude": 31.39328051342307, "longitude": 32.27606211638541, "isLNG": false, "IN": None}
-	{"code": 83, "latitude": 29.77184051801623, "longitude": 32.58376886431008, "isLNG": false, "IN": None}
-	{"code": 84, "latitude": 29.756008887759382, "longitude": 32.58294938757808, "isLNG": false, "IN": None}
-	{"code": 85, "latitude": 29.738767337238244, "longitude": 32.583380273293216, "isLNG": false, "IN": None}
-	{"code": 86, "latitude": 29.755417442958226, "longitude": 32.600409852121466, "isLNG": false, "IN": None}
-	{"code": 87, "latitude": 43.65052259741726, "longitude": -8.185818543732422, "isLNG": true, "IN": true}
-	{"code": 88, "latitude": 43.40687391290101, "longitude": -3.1264183548122064, "isLNG": false, "IN": None}
-	{"code": 89, "latitude": 43.36428519537899, "longitude": -3.095102699101297, "isLNG": true, "IN": true}
-	{"code": 90, "latitude": 47.344613435567446, "longitude": -2.4668534400158353, "isLNG": true, "IN": true}
-	{"code": 91, "latitude": 51.11399169383319, "longitude": -5.155561962429485, "isLNG": true, "IN": true}
-	{"code": 92, "latitude": 51.43198323248519, "longitude": 0.7045061178225213, "isLNG": true, "IN": true}
-	{"code": 93, "latitude": 51.65249183288434, "longitude": 1.6345518011900582, "isLNG": false, "IN": None}
-	{"code": 94, "latitude": 51.03238486782132, "longitude": 2.050723209677029, "isLNG": true, "IN": true}
-	{"code": 95, "latitude": 51.42970443385247, "longitude": 2.632104064279411, "isLNG": false, "IN": None}
-	{"code": 96, "latitude": 51.35293947581437, "longitude": 3.2123432215126466, "isLNG": false, "IN": None}
-	{"code": 97, "latitude": 51.3529321211627, "longitude": 3.2153952094971907, "isLNG": true, "IN": true}
-	{"code": 98, "latitude": 52.01871470989376, "longitude": 3.497410589444728, "isLNG": false, "IN": None}
-	{"code": 99, "latitude": 51.971231264019515, "longitude": 4.076483534105047, "isLNG": true, "IN": true}
-	{"code": 100, "latitude": 51.96754045353887, "longitude": 4.079072664410378, "isLNG": true, "IN": true}
-	{"code": 101, "latitude": 57.652240350154635, "longitude": 10.669984668820467, "isLNG": false, "IN": None}
-	{"code": 102, "latitude": 58.33276352890184, "longitude": 11.401725797415155, "isLNG": true, "IN": true}
-	{"code": 103, "latitude": 54.11166150358061, "longitude": 14.204261507449688, "isLNG": true, "IN": true}
-	{"code": 104, "latitude": 59.4515610837713, "longitude": 18.82543190997795, "isLNG": true, "IN": true}
-	{"code": 105, "latitude": 55.70138380164946, "longitude": 21.04003198992132, "isLNG": true, "IN": true}
-	{"code": 106, "latitude": 60.51751456163046, "longitude": 28.23651751138074, "isLNG": true, "IN": false}
-	{"code": 107, "latitude": 29.067739093983164, "longitude": 48.21565673302818, "isLNG": true, "IN": true}
-	{"code": 108, "latitude": 28.724892360389536, "longitude": 48.46018770576064, "isLNG": true, "IN": true}
-	{"code": 109, "latitude": 25.90690878424487, "longitude": 51.77598158860038, "isLNG": false, "IN": None}
-	{"code": 110, "latitude": 25.890848870471967, "longitude": 51.792160596488266, "isLNG": false, "IN": None}
-	{"code": 111, "latitude": 25.87424564957761, "longitude": 51.792542781069706, "isLNG": false, "IN": None}
-	{"code": 112, "latitude": 25.873957597910856, "longitude": 51.775570981062096, "isLNG": false, "IN": None}
-	{"code": 113, "latitude": 25.857258450919367, "longitude": 51.77512135721933, "isLNG": true, "IN": false}
-	{"code": 114, "latitude": 25.8580463411557, "longitude": 51.79231034142076, "isLNG": true, "IN": false}
-	{"code": 115, "latitude": 25.85799942849792, "longitude": 51.80894936303162, "isLNG": false, "IN": None}
-	{"code": 116, "latitude": 25.84128674676365, "longitude": 51.809452619188924, "isLNG": false, "IN": None}
-	{"code": 117, "latitude": 25.823960381536466, "longitude": 51.80516472432315, "isLNG": false, "IN": None}
-	{"code": 118, "latitude": 25.858243133408322, "longitude": 51.85782909876586, "isLNG": false, "IN": None}
-	{"code": 119, "latitude": 25.840502077906294, "longitude": 51.86515173469637, "isLNG": false, "IN": None}
-	{"code": 120, "latitude": 25.8237160794843, "longitude": 51.858314881640304, "isLNG": true, "IN": false}
-	{"code": 121, "latitude": 25.858424803219247, "longitude": 51.87569509688108, "isLNG": false, "IN": None}
-	{"code": 122, "latitude": 25.83322116323422, "longitude": 51.89243570889565, "isLNG": true, "IN": false}
-	{"code": 123, "latitude": 25.8991340372078, "longitude": 51.64963066673609, "isLNG": true, "IN": true}
-	{"code": 124, "latitude": 25.93335585969232, "longitude": 51.617592607993814, "isLNG": true, "IN": false}
-	{"code": 125, "latitude": 25.933484451306345, "longitude": 51.61750731203258, "isLNG": true, "IN": false}
-	{"code": 126, "latitude": 25.933567560220354, "longitude": 51.61729772882721, "isLNG": true, "IN": false}
-	{"code": 127, "latitude": 25.933619329080393, "longitude": 51.617446907756936, "isLNG": true, "IN": false}
-	{"code": 128, "latitude": 25.932425145499966, "longitude": 51.6116931698347, "isLNG": true, "IN": false}
-	{"code": 129, "latitude": 25.932514831294817, "longitude": 51.61157036626077, "isLNG": true, "IN": false}
-	{"code": 130, "latitude": 25.932466691256927, "longitude": 51.61146203242053, "isLNG": true, "IN": false}
-	{"code": 131, "latitude": 25.932667381088454, "longitude": 51.61146689177822, "isLNG": true, "IN": false}
-	{"code": 132, "latitude": 25.934108687915664, "longitude": 51.60762677169126, "isLNG": true, "IN": false}
-	{"code": 133, "latitude": 25.934143533831197, "longitude": 51.60740158054782, "isLNG": true, "IN": false}
-	{"code": 134, "latitude": 25.93581819146117, "longitude": 51.603484859151756, "isLNG": true, "IN": false}
-	{"code": 135, "latitude": 25.933012927507043, "longitude": 51.59948811296981, "isLNG": true, "IN": false}
-	{"code": 136, "latitude": 25.933310592849434, "longitude": 51.59914523727604, "isLNG": true, "IN": false}
-	{"code": 137, "latitude": 25.937145793567336, "longitude": 51.61358990549264, "isLNG": true, "IN": false}
-	{"code": 138, "latitude": 25.937290897940173, "longitude": 51.6134369069987, "isLNG": true, "IN": false}
-	{"code": 139, "latitude": 25.379969706509424, "longitude": 55.06278429696829, "isLNG": true, "IN": true}
-	{"code": 140, "latitude": 25.031657359045568, "longitude": 55.067568806166605, "isLNG": true, "IN": true}
-	{"code": 141, "latitude": 25.157191592509136, "longitude": 52.88704000390606, "isLNG": true, "IN": false}
-	{"code": 142, "latitude": 25.09662429578591, "longitude": 52.96171053183735, "isLNG": false, "IN": None}
-	{"code": 143, "latitude": 25.267707527357327, "longitude": 56.517237183680855, "isLNG": false, "IN": None}
-	{"code": 144, "latitude": 23.801075201123936, "longitude": 58.64581476087514, "isLNG": false, "IN": None}
-	{"code": 145, "latitude": 22.665219545785746, "longitude": 59.41313353112297, "isLNG": true, "IN": false}
-	{"code": 146, "latitude": 23.51446236972412, "longitude": 62.408539418800906, "isLNG": false, "IN": None}
-	{"code": 147, "latitude": 24.483164051852732, "longitude": 66.97552630552616, "isLNG": false, "IN": None}
-	{"code": 148, "latitude": 24.77407000909653, "longitude": 67.28714708762675, "isLNG": true, "IN": true}
-	{"code": 149, "latitude": 24.771086413705902, "longitude": 67.3121175679103, "isLNG": true, "IN": true}
-	{"code": 150, "latitude": 21.074635269737687, "longitude": 72.61742261598833, "isLNG": true, "IN": true}
-	{"code": 151, "latitude": 21.669833263712533, "longitude": 72.50955956800895, "isLNG": true, "IN": true}
-	{"code": 152, "latitude": 21.674140725921998, "longitude": 72.50943386847321, "isLNG": true, "IN": true}
-	{"code": 153, "latitude": 17.61272855204047, "longitude": 73.02952884701702, "isLNG": true, "IN": true}
-	{"code": 154, "latitude": 8.09562305582679, "longitude": 76.89752180571053, "isLNG": true, "IN": true}
-	{"code": 155, "latitude": 5.562011374165567, "longitude": 97.3709827731807, "isLNG": true, "IN": true}
-	{"code": 156, "latitude": 1.198769190283974, "longitude": 103.6674047660833, "isLNG": false, "IN": None}
-	{"code": 157, "latitude": 1.2047849097398362, "longitude": 103.67136597112099, "isLNG": true, "IN": true}
-	{"code": 158, "latitude": 1.1871290685012001, "longitude": 103.68766600376689, "isLNG": false, "IN": None}
-	{"code": 159, "latitude": 1.1830037671976394, "longitude": 103.6933797462257, "isLNG": true, "IN": false}
-	{"code": 160, "latitude": 1.174482521596532, "longitude": 103.70591777330148, "isLNG": true, "IN": true}
-	{"code": 161, "latitude": 1.1683673470128244, "longitude": 103.71274475651974, "isLNG": false, "IN": None}
-	{"code": 162, "latitude": 1.165230195578831, "longitude": 103.71790580029901, "isLNG": false, "IN": None}
-	{"code": 163, "latitude": 1.1609611294765223, "longitude": 103.72442415071372, "isLNG": true, "IN": false}
-	{"code": 164, "latitude": 1.2325259960240322, "longitude": 103.67195713788574, "isLNG": true, "IN": true}
-	{"code": 165, "latitude": 1.1742428267425151, "longitude": 103.75746089099755, "isLNG": false, "IN": None}
-	{"code": 166, "latitude": 1.298881584408898, "longitude": 103.67062495054509, "isLNG": true, "IN": true}
-	{"code": 167, "latitude": 1.4616204031787075, "longitude": 103.85135939265307, "isLNG": false, "IN": None}
-	{"code": 168, "latitude": 1.3092230191844998, "longitude": 104.15220859934642, "isLNG": true, "IN": true}
-	{"code": 169, "latitude": 1.5614686026255253, "longitude": 104.40753660620439, "isLNG": false, "IN": None}
-	{"code": 170, "latitude": 1.4775249507552257, "longitude": 104.82241832337783, "isLNG": false, "IN": None}
-	{"code": 171, "latitude": 2.5863576011597322, "longitude": 104.88183113959848, "isLNG": false, "IN": None}
-	{"code": 172, "latitude": 6.0820449188462655, "longitude": 107.88394097259001, "isLNG": false, "IN": None}
-	{"code": 173, "latitude": 3.343967972954862, "longitude": 112.97586165000725, "isLNG": true, "IN": true}
-	{"code": 174, "latitude": 3.323869738429871, "longitude": 112.88732279479117, "isLNG": false, "IN": None}
-	{"code": 175, "latitude": 3.3107530140475254, "longitude": 112.861536224079, "isLNG": false, "IN": None}
-	{"code": 176, "latitude": 3.2447556080380324, "longitude": 112.87527353687638, "isLNG": false, "IN": None}
-	{"code": 177, "latitude": 3.265613098777128, "longitude": 113.0583106542281, "isLNG": true, "IN": false}
-	{"code": 178, "latitude": 3.2640288612672466, "longitude": 113.05930902259732, "isLNG": true, "IN": false}
-	{"code": 179, "latitude": 3.263947409398591, "longitude": 113.05902918043144, "isLNG": true, "IN": false}
-	{"code": 180, "latitude": 3.264599483726411, "longitude": 113.06344452753127, "isLNG": true, "IN": false}
-	{"code": 181, "latitude": 4.752337362621822, "longitude": 114.44129590768868, "isLNG": true, "IN": false}
-	{"code": 182, "latitude": 4.709298558798228, "longitude": 114.43974345470023, "isLNG": true, "IN": false}
-	{"code": 183, "latitude": 5.186221794509828, "longitude": 115.242824623469, "isLNG": false, "IN": None}
-	{"code": 184, "latitude": 6.447127836202969, "longitude": 115.90405695219678, "isLNG": true, "IN": false}
-	{"code": 185, "latitude": 12.878685820842632, "longitude": 113.88082557179824, "isLNG": false, "IN": None}
-	{"code": 186, "latitude": 14.544815143743458, "longitude": 120.8362279991831, "isLNG": false, "IN": None}
-	{"code": 187, "latitude": 19.00474172778984, "longitude": 119.28611334795602, "isLNG": false, "IN": None}
-	{"code": 188, "latitude": 22.811854088310476, "longitude": 120.20120343114765, "isLNG": true, "IN": true}
-	{"code": 189, "latitude": 24.251255541837985, "longitude": 120.49832545170167, "isLNG": true, "IN": true}
-	{"code": 190, "latitude": 24.251476412801182, "longitude": 120.49831940023805, "isLNG": true, "IN": true}
-	{"code": 191, "latitude": 25.164509367622145, "longitude": 119.01764724452075, "isLNG": true, "IN": true}
-	{"code": 192, "latitude": 18.459450862863175, "longitude": 114.27586578197547, "isLNG": false, "IN": None}
-	{"code": 193, "latitude": 21.786867911992246, "longitude": 113.32663350758314, "isLNG": false, "IN": None}
-	{"code": 194, "latitude": 21.903897057999824, "longitude": 113.21668108504916, "isLNG": true, "IN": true}
-	{"code": 195, "latitude": 22.10223637953125, "longitude": 114.10188433514789, "isLNG": true, "IN": true}
-	{"code": 196, "latitude": 22.57464371596509, "longitude": 114.43181411267823, "isLNG": true, "IN": true}
-	{"code": 197, "latitude": 22.589218344927822, "longitude": 114.42986053855644, "isLNG": true, "IN": true}
-	{"code": 198, "latitude": 22.78780943381646, "longitude": 116.47590209332401, "isLNG": true, "IN": true}
-	{"code": 199, "latitude": 19.780319909439253, "longitude": 109.15432447447557, "isLNG": true, "IN": false}
-	{"code": 200, "latitude": 19.779242872074438, "longitude": 109.03373255316889, "isLNG": false, "IN": None}
-	{"code": 201, "latitude": 21.478417434714984, "longitude": 109.12250587438284, "isLNG": true, "IN": true}
-	{"code": 202, "latitude": 27.364108010297276, "longitude": 124.21297563840314, "isLNG": false, "IN": None}
-	{"code": 203, "latitude": 29.676982077441608, "longitude": 122.75848367020909, "isLNG": false, "IN": None}
-	{"code": 204, "latitude": 30.099941845393822, "longitude": 122.27979967958208, "isLNG": true, "IN": true}
-	{"code": 205, "latitude": 29.89836227109397, "longitude": 122.0902017650499, "isLNG": true, "IN": true}
-	{"code": 206, "latitude": 29.897415857061528, "longitude": 122.08876586981712, "isLNG": true, "IN": true}
-	{"code": 207, "latitude": 30.600555977228392, "longitude": 122.10451525910909, "isLNG": true, "IN": true}
-	{"code": 208, "latitude": 31.326053283537874, "longitude": 121.69990473125088, "isLNG": true, "IN": true}
-	{"code": 209, "latitude": 32.524873199125054, "longitude": 122.09515773140039, "isLNG": false, "IN": None}
-	{"code": 210, "latitude": 32.54892374957692, "longitude": 121.43121411630938, "isLNG": true, "IN": true}
-	{"code": 211, "latitude": 32.51207481655387, "longitude": 124.69062300674628, "isLNG": false, "IN": None}
-	{"code": 212, "latitude": 34.143435595767755, "longitude": 125.30832740814887, "isLNG": false, "IN": None}
-	{"code": 213, "latitude": 34.605661416893, "longitude": 125.1747249749416, "isLNG": false, "IN": None}
-	{"code": 214, "latitude": 34.68232332019543, "longitude": 126.25432060114214, "isLNG": true, "IN": true}
-	{"code": 215, "latitude": 36.33279395999007, "longitude": 126.45528328884048, "isLNG": true, "IN": true}
-	{"code": 216, "latitude": 36.99913203856242, "longitude": 126.78180474266627, "isLNG": true, "IN": true}
-	{"code": 217, "latitude": 37.337559901594126, "longitude": 126.59200640610965, "isLNG": true, "IN": true}
-	{"code": 218, "latitude": 37.33760547403294, "longitude": 126.5900795743794, "isLNG": true, "IN": true}
-	{"code": 219, "latitude": 37.33753285895403, "longitude": 126.58469069923376, "isLNG": true, "IN": true}
-	{"code": 220, "latitude": 37.337525504642166, "longitude": 126.58255264004357, "isLNG": true, "IN": true}
-	{"code": 221, "latitude": 33.06390017177714, "longitude": 127.70908020314808, "isLNG": false, "IN": None}
-	{"code": 222, "latitude": 34.59787331587383, "longitude": 127.99167983916297, "isLNG": true, "IN": true}
-	{"code": 223, "latitude": 34.60425331024519, "longitude": 127.9724296761369, "isLNG": false, "IN": None}
-	{"code": 224, "latitude": 34.65845761766106, "longitude": 127.89753106971112, "isLNG": false, "IN": None}
-	{"code": 225, "latitude": 34.752975198984224, "longitude": 127.7931193785899, "isLNG": false, "IN": None}
-	{"code": 226, "latitude": 34.88306161200931, "longitude": 127.79171966213806, "isLNG": true, "IN": true}
-	{"code": 227, "latitude": 34.62331029122712, "longitude": 129.02064963502352, "isLNG": false, "IN": None}
-	{"code": 228, "latitude": 34.860255486597225, "longitude": 128.80061847119438, "isLNG": false, "IN": None}
-	{"code": 229, "latitude": 34.88116287886627, "longitude": 128.709457452404, "isLNG": false, "IN": None}
-	{"code": 230, "latitude": 34.90653250731313, "longitude": 128.60575452068588, "isLNG": true, "IN": true}
-	{"code": 231, "latitude": 34.949063406261054, "longitude": 128.56892097839912, "isLNG": true, "IN": true}
-	{"code": 232, "latitude": 34.949701107338505, "longitude": 128.4374778113585, "isLNG": true, "IN": true}
-	{"code": 233, "latitude": 34.94823305065428, "longitude": 128.43821097256108, "isLNG": true, "IN": true}
-	{"code": 234, "latitude": 35.008772555950536, "longitude": 129.05868387691675, "isLNG": false, "IN": None}
-	{"code": 235, "latitude": 35.639834951384046, "longitude": 129.77887001638246, "isLNG": false, "IN": None}
-	{"code": 236, "latitude": 35.945345998677375, "longitude": 129.86788089358652, "isLNG": false, "IN": None}
-	{"code": 237, "latitude": 35.49907993297432, "longitude": 129.43606908117567, "isLNG": true, "IN": true}
-	{"code": 238, "latitude": 37.21638730684989, "longitude": 129.52900919935905, "isLNG": true, "IN": true}
-	{"code": 239, "latitude": 34.03581460034485, "longitude": 130.85094764167582, "isLNG": false, "IN": None}
-	{"code": 240, "latitude": 33.929040998825386, "longitude": 130.80058627944763, "isLNG": true, "IN": true}
-	{"code": 241, "latitude": 33.90638778674583, "longitude": 132.0910495251263, "isLNG": true, "IN": true}
-	{"code": 242, "latitude": 34.43311827702641, "longitude": 133.7864625288936, "isLNG": true, "IN": true}
-	{"code": 243, "latitude": 34.76384853085843, "longitude": 134.6900471926287, "isLNG": true, "IN": true}
-	{"code": 244, "latitude": 34.552081432128325, "longitude": 135.4037021173524, "isLNG": true, "IN": true}
-	{"code": 245, "latitude": 34.55253600441088, "longitude": 135.41370956318042, "isLNG": true, "IN": true}
-	{"code": 246, "latitude": 34.56595777315036, "longitude": 135.40443047971942, "isLNG": true, "IN": true}
-	{"code": 247, "latitude": 33.98695096000961, "longitude": 135.06353743111939, "isLNG": true, "IN": true}
-	{"code": 248, "latitude": 34.9772551791482, "longitude": 136.68888774858598, "isLNG": true, "IN": true}
-	{"code": 249, "latitude": 34.96995205919394, "longitude": 136.81769782393246, "isLNG": true, "IN": true}
-	{"code": 250, "latitude": 34.97603359759933, "longitude": 136.82204733116026, "isLNG": true, "IN": true}
-	{"code": 251, "latitude": 35.34214377767979, "longitude": 139.82303489387414, "isLNG": true, "IN": true}
-	{"code": 252, "latitude": 35.3463651489673, "longitude": 139.82077921601, "isLNG": true, "IN": true}
-	{"code": 253, "latitude": 35.40185242196288, "longitude": 139.6389286788742, "isLNG": true, "IN": true}
-	{"code": 254, "latitude": 35.46106004954395, "longitude": 139.71848057933764, "isLNG": true, "IN": true}
-	{"code": 255, "latitude": 35.46995285368107, "longitude": 139.73870366318138, "isLNG": true, "IN": true}
-	{"code": 256, "latitude": 35.47290952765159, "longitude": 139.96522959123783, "isLNG": true, "IN": true}
-	{"code": 257, "latitude": 35.474377543392286, "longitude": 139.96975619040737, "isLNG": true, "IN": true}
-	{"code": 258, "latitude": 36.478913039099574, "longitude": 140.6262951657339, "isLNG": true, "IN": true}
-	{"code": 259, "latitude": 38.11709706705522, "longitude": 141.1848898933551, "isLNG": true, "IN": true}
-	{"code": 260, "latitude": 38.81391539286842, "longitude": 122.03672598381098, "isLNG": true, "IN": true}
-	{"code": 261, "latitude": 38.002639235971245, "longitude": 139.23047085356836, "isLNG": true, "IN": true}
-	{"code": 262, "latitude": 42.93150827508849, "longitude": 140.31568415440663, "isLNG": true, "IN": true}
-	{"code": 263, "latitude": 38.84883145243345, "longitude": 118.74234216566974, "isLNG": true, "IN": false}
-	{"code": 264, "latitude": 38.91480537881583, "longitude": 118.55144478493705, "isLNG": true, "IN": true}
-	{"code": 265, "latitude": 38.927654407956894, "longitude": 117.87623055673286, "isLNG": true, "IN": true}
-	{"code": 266, "latitude": 38.75405464309191, "longitude": 117.71501520348507, "isLNG": true, "IN": true}
-	{"code": 267, "latitude": 35.192327349022925, "longitude": 120.28650792946003, "isLNG": false, "IN": None}
-	{"code": 268, "latitude": 35.5758322356445, "longitude": 119.76040493249255, "isLNG": true, "IN": true}
-	{"code": 269, "latitude": 46.37775288668616, "longitude": 142.75508596254141, "isLNG": true, "IN": false}
-	{"code": 270, "latitude": 46.6089863221783, "longitude": 142.8963000292075, "isLNG": true, "IN": false}
-	{"code": 271, "latitude": -5.916917085793712, "longitude": 106.64619479826705, "isLNG": true, "IN": true}
-	{"code": 272, "latitude": 12.649725836413163, "longitude": 101.15527513839999, "isLNG": true, "IN": true}
-	{"code": 273, "latitude": 12.652463586264837, "longitude": 101.15387267572271, "isLNG": true, "IN": true}
-	{"code": 274, "latitude": -8.235832333051533, "longitude": 115.37736334097373, "isLNG": false, "IN": None}
-	{"code": 275, "latitude": -20.143468081352452, "longitude": 117.03565669199935, "isLNG": false, "IN": None}
-	{"code": 276, "latitude": -20.496095336439335, "longitude": 116.74616624757512, "isLNG": false, "IN": None}
-	{"code": 277, "latitude": -20.587045392272813, "longitude": 116.76389205417472, "isLNG": true, "IN": false}
-	{"code": 278, "latitude": -20.59100495645461, "longitude": 116.7625930243521, "isLNG": true, "IN": false}
-	{"code": 279, "latitude": -20.604799416940388, "longitude": 116.75512999263941, "isLNG": true, "IN": false}
-	{"code": 280, "latitude": -20.33252986825851, "longitude": 116.52442607586636, "isLNG": false, "IN": None}
-	{"code": 281, "latitude": -20.33194755964998, "longitude": 116.50464608506215, "isLNG": false, "IN": None}
-	{"code": 282, "latitude": -20.332238076413763, "longitude": 116.48299743436053, "isLNG": false, "IN": None}
-	{"code": 283, "latitude": -20.753457044401962, "longitude": 115.76569285460617, "isLNG": false, "IN": None}
-	{"code": 284, "latitude": -20.813287994930555, "longitude": 115.49334973338581, "isLNG": true, "IN": false}
-	{"code": 285, "latitude": -20.813288363108693, "longitude": 115.49092288077621, "isLNG": true, "IN": false}
-	{"code": 286, "latitude": -21.67639775514745, "longitude": 115.0071843161143, "isLNG": true, "IN": false}
-	{"code": 287, "latitude": -0.00571680466492224, "longitude": 117.63903709206072, "isLNG": false, "IN": None}
-	{"code": 288, "latitude": 0.08308370240793042, "longitude": 117.48624142664718, "isLNG": true, "IN": false}
-	{"code": 289, "latitude": 0.09741431323664852, "longitude": 117.47994982567278, "isLNG": true, "IN": false}
-	{"code": 290, "latitude": 1.177541892683637, "longitude": 126.4416438570551, "isLNG": false, "IN": None}
-	{"code": 291, "latitude": -13.68920712850191, "longitude": 123.27611733164264, "isLNG": true, "IN": false}
-	{"code": 292, "latitude": -2.4325843309422357, "longitude": 132.72323592834132, "isLNG": true, "IN": false}
-	{"code": 293, "latitude": -2.4056039487253127, "longitude": 133.03638093065123, "isLNG": false, "IN": None}
-	{"code": 294, "latitude": -2.425138863657145, "longitude": 133.13352098349787, "isLNG": true, "IN": false}
-	{"code": 295, "latitude": -12.257072509192867, "longitude": 130.6627156655866, "isLNG": false, "IN": None}
-	{"code": 296, "latitude": -12.524410008728152, "longitude": 130.8495222351758, "isLNG": true, "IN": false}
-	{"code": 297, "latitude": -12.508728736954165, "longitude": 130.91400113732394, "isLNG": true, "IN": false}
-	{"code": 298, "latitude": 21.40859430132868, "longitude": 91.81500253325287, "isLNG": false, "IN": None}
-	{"code": 299, "latitude": 21.54591041162501, "longitude": 91.81561304597932, "isLNG": true, "IN": true}
-	{"code": 300, "latitude": -9.340001212120667, "longitude": 146.98684386041734, "isLNG": true, "IN": false}
-	{"code": 301, "latitude": -9.339988343715719, "longitude": 146.98688804723903, "isLNG": true, "IN": false}
-	{"code": 302, "latitude": -23.849881498146075, "longitude": 151.62956904239778, "isLNG": false, "IN": None}
-	{"code": 303, "latitude": -23.783673819003155, "longitude": 151.20131565177252, "isLNG": true, "IN": false}
-	{"code": 304, "latitude": -23.78356723584195, "longitude": 151.20122654058042, "isLNG": true, "IN": false}
-	{"code": 305, "latitude": -23.777944291855167, "longitude": 151.1954763478345, "isLNG": true, "IN": false}
-	{"code": 306, "latitude": -23.777952685924014, "longitude": 151.19544821272714, "isLNG": true, "IN": false}
-	{"code": 307, "latitude": -23.76275403029655, "longitude": 151.18470117083345, "isLNG": true, "IN": false}
-	{"code": 308, "latitude": 3.5419679143813214, "longitude": 9.064599586427354, "isLNG": true, "IN": false}
-	{"code": 309, "latitude": 4.427163701651733, "longitude": 7.145536630462364, "isLNG": true, "IN": false}
-	{"code": 310, "latitude": 4.422237566708307, "longitude": 7.141451117169473, "isLNG": true, "IN": false}
-	{"code": 311, "latitude": -6.848658383111941, "longitude": 12.245159608499158, "isLNG": true, "IN": false}
-	{"code": 312, "latitude": -33.510754668243564, "longitude": 17.824512308878123, "isLNG": false, "IN": None}
-	{"code": 313, "latitude": -33.87679960726946, "longitude": 25.687310773386297, "isLNG": false, "IN": None}
-	{"code": 314, "latitude": 71.27330077032153, "longitude": 72.09294858507606, "isLNG": true, "IN": false}
-	{"code": 315, "latitude": 71.27470156648988, "longitude": 72.09468873491556, "isLNG": false, "IN": None}
-	{"code": 316, "latitude": 71.2771026467075, "longitude": 72.10232043243688, "isLNG": false, "IN": None}
-	{"code": 317, "latitude": 71.27851029892263, "longitude": 72.10389980282227, "isLNG": false, "IN": None}
-	{"code": 318, "latitude": 71.34461262384872, "longitude": 72.42747425419383, "isLNG": false, "IN": None}
+	{"code": 1, "latitude": "29.419974", "longitude": "-93.695503", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 2, "latitude": "29.425776", "longitude": "-93.635201", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 3, "latitude": "29.405944", "longitude": "-93.632105", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 4, "latitude": "29.566101", "longitude": "-93.718544", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 5, "latitude": "29.742944", "longitude": "-93.869437", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 6, "latitude": "29.742996", "longitude": "-93.869502", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 7, "latitude": "29.743514", "longitude": "-93.871189", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 8, "latitude": "29.743576", "longitude": "-93.871250", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 9, "latitude": "29.743564", "longitude": "-93.871255", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 10, "latitude": "29.264048", "longitude": "-93.257214", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 11, "latitude": "29.304285", "longitude": "-93.200184", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 12, "latitude": "28.956185", "longitude": "-94.565623", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 13, "latitude": "29.158900", "longitude": "-94.626327", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 14, "latitude": "28.636682", "longitude": "-94.668273", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 15, "latitude": "28.865023", "longitude": "-95.168485", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 16, "latitude": "28.799483", "longitude": "-95.214317", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 17, "latitude": "28.938425", "longitude": "-95.307280", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 18, "latitude": "28.940030", "longitude": "-95.308882", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 19, "latitude": "30.037673", "longitude": "-93.333311", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 20, "latitude": "30.040404", "longitude": "-93.333129", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 21, "latitude": "27.799351", "longitude": "-96.849086", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 22, "latitude": "27.880047", "longitude": "-97.266712", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 23, "latitude": "27.880106", "longitude": "-97.266709", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 24, "latitude": "27.880672", "longitude": "-97.270977", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 25, "latitude": "24.909652", "longitude": "-93.616172", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 26, "latitude": "25.764365", "longitude": "-93.006396", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 27, "latitude": "24.434483", "longitude": "-89.914466", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 28, "latitude": "23.567701", "longitude": "-81.104429", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 29, "latitude": "26.344188", "longitude": "-78.692052", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 30, "latitude": "32.038185", "longitude": "-80.819130", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 31, "latitude": "17.833538", "longitude": "-77.099785", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 32, "latitude": "17.878413", "longitude": "-76.788621", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 33, "latitude": "9.956729", "longitude": "-80.110609", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 34, "latitude": "9.486600", "longitude": "-79.928248", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 35, "latitude": "9.505700", "longitude": "-79.940285", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 36, "latitude": "9.426392", "longitude": "-79.950589", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 37, "latitude": "9.479045", "longitude": "-79.855735", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 38, "latitude": "9.257202", "longitude": "-79.914132", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 39, "latitude": "8.979899", "longitude": "-79.587664", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 40, "latitude": "8.830023", "longitude": "-79.523912", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 41, "latitude": "8.848821", "longitude": "-79.499641", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 42, "latitude": "8.829918", "longitude": "-79.486274", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 43, "latitude": "12.122214", "longitude": "-69.166000", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 44, "latitude": "10.618109", "longitude": "-61.654183", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 45, "latitude": "10.302870", "longitude": "-61.725263", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 46, "latitude": "10.191054", "longitude": "-61.698875", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 47, "latitude": "10.189494", "longitude": "-61.701389", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 48, "latitude": "10.188726", "longitude": "-61.702689", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 49, "latitude": "18.141095", "longitude": "-66.529560", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 50, "latitude": "18.409615", "longitude": "-69.301447", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 51, "latitude": "18.405555", "longitude": "-69.625215", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 52, "latitude": "36.904355", "longitude": "-75.465412", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 53, "latitude": "38.392098", "longitude": "-76.372791", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 54, "latitude": "-10.841089", "longitude": "-36.865718", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 55, "latitude": "-12.896719", "longitude": "-38.634968", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 56, "latitude": "-22.002980", "longitude": "-40.745175", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 57, "latitude": "-22.783719", "longitude": "-43.131570", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 58, "latitude": "-22.783704", "longitude": "-43.131697", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 59, "latitude": "-22.782210", "longitude": "-43.131268", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 60, "latitude": "-35.149877", "longitude": "-55.329990", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 61, "latitude": "-35.060718", "longitude": "-55.991166", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 62, "latitude": "-34.717303", "longitude": "-57.872401", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 63, "latitude": "-34.241250", "longitude": "-58.760243", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 64, "latitude": "-38.895768", "longitude": "-62.128670", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 65, "latitude": "-32.995285", "longitude": "-71.585344", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 66, "latitude": "-32.763841", "longitude": "-71.517602", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 67, "latitude": "-23.047771", "longitude": "-70.379120", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 68, "latitude": "-13.773395", "longitude": "-76.309644", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 69, "latitude": "-13.307200", "longitude": "-76.437194", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 70, "latitude": "28.293551", "longitude": "-16.028993", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 71, "latitude": "25.871870", "longitude": "-18.137941", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 72, "latitude": "38.250575", "longitude": "-9.132052", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 73, "latitude": "37.170099", "longitude": "-6.912772", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 74, "latitude": "36.815411", "longitude": "-6.840909", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 75, "latitude": "36.465296", "longitude": "-6.585024", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 76, "latitude": "36.160528", "longitude": "-5.401996", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 77, "latitude": "36.129734", "longitude": "-5.381431", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 78, "latitude": "36.123320", "longitude": "-5.372223", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 79, "latitude": "36.106633", "longitude": "-5.360098", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 80, "latitude": "36.098189", "longitude": "-5.401944", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 81, "latitude": "35.843221", "longitude": "-4.317313", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 82, "latitude": "37.429739", "longitude": "-0.951646", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 83, "latitude": "36.100431", "longitude": "0.015343", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 84, "latitude": "35.976702", "longitude": "-0.071764", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 85, "latitude": "35.862631", "longitude": "-0.224018", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 86, "latitude": "35.816811", "longitude": "-0.228241", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 87, "latitude": "35.819108", "longitude": "-0.256583", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 88, "latitude": "38.173265", "longitude": "4.358928", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 89, "latitude": "36.996909", "longitude": "6.987278", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 90, "latitude": "36.883311", "longitude": "6.943499", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 91, "latitude": "36.883347", "longitude": "6.943538", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 92, "latitude": "36.883276", "longitude": "6.943451", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 93, "latitude": "33.973700", "longitude": "-8.970013", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 94, "latitude": "41.330841", "longitude": "2.176626", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 95, "latitude": "43.073240", "longitude": "4.883834", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 96, "latitude": "43.414453", "longitude": "4.898119", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 97, "latitude": "43.414628", "longitude": "4.897903", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 98, "latitude": "43.450795", "longitude": "4.854256", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 99, "latitude": "39.636392", "longitude": "-0.214091", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 100, "latitude": "39.636483", "longitude": "-0.213859", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 101, "latitude": "43.544035", "longitude": "10.159254", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 102, "latitude": "44.076524", "longitude": "9.835085", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 103, "latitude": "45.092039", "longitude": "12.583556", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 104, "latitude": "45.092197", "longitude": "12.583515", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 105, "latitude": "45.160278", "longitude": "12.426654", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 106, "latitude": "45.198247", "longitude": "14.508119", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 107, "latitude": "35.889826", "longitude": "14.792914", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 108, "latitude": "36.640049", "longitude": "21.630250", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 109, "latitude": "37.886854", "longitude": "23.472817", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 110, "latitude": "38.821160", "longitude": "26.911043", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 111, "latitude": "38.743771", "longitude": "26.895514", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 112, "latitude": "40.964696", "longitude": "28.100973", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 113, "latitude": "33.821143", "longitude": "27.078630", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 114, "latitude": "31.460313", "longitude": "30.222911", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 115, "latitude": "31.367770", "longitude": "30.296032", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 116, "latitude": "31.466527", "longitude": "31.752078", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 117, "latitude": "31.425380", "longitude": "32.275148", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 118, "latitude": "31.405925", "longitude": "32.277563", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 119, "latitude": "31.407083", "longitude": "32.294756", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 120, "latitude": "31.393194", "longitude": "32.292691", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 121, "latitude": "31.393489", "longitude": "32.277644", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 122, "latitude": "29.772729", "longitude": "32.583253", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 123, "latitude": "29.756009", "longitude": "32.582949", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 124, "latitude": "29.738767", "longitude": "32.583380", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 125, "latitude": "29.755417", "longitude": "32.600410", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 126, "latitude": "43.650523", "longitude": "-8.185819", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 127, "latitude": "43.637217", "longitude": "-3.175023", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 128, "latitude": "43.406874", "longitude": "-3.126418", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 129, "latitude": "43.364285", "longitude": "-3.095103", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 130, "latitude": "50.942754", "longitude": "-5.079121", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 131, "latitude": "47.101994", "longitude": "-2.459016", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 132, "latitude": "47.300250", "longitude": "-2.137633", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 133, "latitude": "51.431895", "longitude": "0.701656", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 134, "latitude": "51.432089", "longitude": "0.707926", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 135, "latitude": "51.652492", "longitude": "1.634552", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 136, "latitude": "51.018160", "longitude": "1.736760", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 137, "latitude": "51.038654", "longitude": "2.188141", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 138, "latitude": "51.038561", "longitude": "2.188185", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 139, "latitude": "51.429704", "longitude": "2.632104", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 140, "latitude": "51.352874", "longitude": "3.212305", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 141, "latitude": "51.352932", "longitude": "3.215395", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 142, "latitude": "52.017435", "longitude": "3.470250", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 143, "latitude": "52.018806", "longitude": "3.506398", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 144, "latitude": "51.971231", "longitude": "4.076484", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 145, "latitude": "51.967558", "longitude": "4.079139", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 146, "latitude": "57.652240", "longitude": "10.669985", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 147, "latitude": "58.332764", "longitude": "11.401726", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 148, "latitude": "57.569232", "longitude": "11.633646", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 149, "latitude": "54.300672", "longitude": "14.109013", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 150, "latitude": "53.922651", "longitude": "14.299510", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 151, "latitude": "59.451561", "longitude": "18.825432", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 152, "latitude": "55.701384", "longitude": "21.040032", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 153, "latitude": "60.564966", "longitude": "28.369964", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 154, "latitude": "60.604930", "longitude": "28.548973", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 155, "latitude": "65.634327", "longitude": "24.147364", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 156, "latitude": "29.073029", "longitude": "48.160857", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 157, "latitude": "29.072866", "longitude": "48.160929", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 158, "latitude": "29.061190", "longitude": "48.333507", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 159, "latitude": "28.746124", "longitude": "48.555558", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 160, "latitude": "28.716721", "longitude": "48.408775", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 161, "latitude": "25.906909", "longitude": "51.775982", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 162, "latitude": "25.874324", "longitude": "51.775445", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 163, "latitude": "25.857258", "longitude": "51.775121", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 164, "latitude": "25.858046", "longitude": "51.792310", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 165, "latitude": "25.857999", "longitude": "51.808949", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 166, "latitude": "25.841287", "longitude": "51.809453", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 167, "latitude": "25.874486", "longitude": "51.792441", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 168, "latitude": "25.891129", "longitude": "51.792222", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 169, "latitude": "25.841202", "longitude": "51.791947", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 170, "latitude": "25.823780", "longitude": "51.792345", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 171, "latitude": "25.823896", "longitude": "51.808851", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 172, "latitude": "25.804482", "longitude": "51.809754", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 173, "latitude": "25.858243", "longitude": "51.857829", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 174, "latitude": "25.840685", "longitude": "51.858970", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 175, "latitude": "25.840179", "longitude": "51.876088", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 176, "latitude": "25.823716", "longitude": "51.858315", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 177, "latitude": "25.823029", "longitude": "51.875686", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 178, "latitude": "25.858425", "longitude": "51.875695", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 179, "latitude": "25.841398", "longitude": "51.892179", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 180, "latitude": "25.823292", "longitude": "51.892748", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 181, "latitude": "25.899134", "longitude": "51.649631", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 182, "latitude": "25.933351", "longitude": "51.617592", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 183, "latitude": "25.933486", "longitude": "51.617514", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 184, "latitude": "25.933452", "longitude": "51.617398", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 185, "latitude": "25.933564", "longitude": "51.617301", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 186, "latitude": "25.933613", "longitude": "51.617444", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 187, "latitude": "25.932425", "longitude": "51.611693", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 188, "latitude": "25.932515", "longitude": "51.611570", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 189, "latitude": "25.932467", "longitude": "51.611462", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 190, "latitude": "25.932662", "longitude": "51.611481", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 191, "latitude": "25.932529", "longitude": "51.611331", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 192, "latitude": "25.934074", "longitude": "51.607629", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 193, "latitude": "25.934128", "longitude": "51.607589", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 194, "latitude": "25.934143", "longitude": "51.607405", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 195, "latitude": "25.934341", "longitude": "51.607314", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 196, "latitude": "25.935823", "longitude": "51.603597", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 197, "latitude": "25.935811", "longitude": "51.603501", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 198, "latitude": "25.935742", "longitude": "51.603573", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 199, "latitude": "25.933006", "longitude": "51.599496", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 200, "latitude": "25.933218", "longitude": "51.599241", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 201, "latitude": "25.933308", "longitude": "51.599143", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 202, "latitude": "25.933348", "longitude": "51.599260", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 203, "latitude": "25.937142", "longitude": "51.613586", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 204, "latitude": "25.937276", "longitude": "51.613520", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 205, "latitude": "25.937292", "longitude": "51.613434", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 206, "latitude": "25.828973", "longitude": "53.875480", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 207, "latitude": "25.396560", "longitude": "55.034532", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 208, "latitude": "25.251624", "longitude": "55.268260", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 209, "latitude": "25.031657", "longitude": "55.067569", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 210, "latitude": "25.157189", "longitude": "52.887042", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 211, "latitude": "25.157249", "longitude": "52.887115", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 212, "latitude": "25.101473", "longitude": "52.968862", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 213, "latitude": "25.267834", "longitude": "56.518197", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 214, "latitude": "23.688272", "longitude": "58.419698", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 215, "latitude": "23.668656", "longitude": "58.602461", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 216, "latitude": "22.665247", "longitude": "59.413149", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 217, "latitude": "22.665228", "longitude": "59.413301", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 218, "latitude": "23.934210", "longitude": "61.743172", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 219, "latitude": "22.941354", "longitude": "63.254738", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 220, "latitude": "24.499693", "longitude": "66.989020", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 221, "latitude": "24.774070", "longitude": "67.287147", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 222, "latitude": "24.771175", "longitude": "67.312095", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 223, "latitude": "20.325334", "longitude": "71.616648", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 224, "latitude": "21.074635", "longitude": "72.617423", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 225, "latitude": "21.669833", "longitude": "72.509560", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 226, "latitude": "21.673140", "longitude": "72.509518", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 227, "latitude": "21.674493", "longitude": "72.509483", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 228, "latitude": "21.674576", "longitude": "72.509518", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 229, "latitude": "17.667207", "longitude": "73.009642", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 230, "latitude": "9.923611", "longitude": "76.132814", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 231, "latitude": "6.408928", "longitude": "77.721315", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 232, "latitude": "5.475505", "longitude": "97.049524", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 233, "latitude": "5.217920", "longitude": "98.601343", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 234, "latitude": "4.161521", "longitude": "99.934945", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 235, "latitude": "2.315401", "longitude": "101.977849", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 236, "latitude": "1.198627", "longitude": "103.667321", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 237, "latitude": "1.204674", "longitude": "103.671276", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 238, "latitude": "1.190980", "longitude": "103.683345", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 239, "latitude": "1.187801", "longitude": "103.685699", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 240, "latitude": "1.183201", "longitude": "103.693839", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 241, "latitude": "1.181019", "longitude": "103.698323", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 242, "latitude": "1.173980", "longitude": "103.706491", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 243, "latitude": "1.165030", "longitude": "103.718685", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 244, "latitude": "1.161417", "longitude": "103.724347", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 245, "latitude": "1.232966", "longitude": "103.672121", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 246, "latitude": "1.219715", "longitude": "103.649426", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 247, "latitude": "1.167544", "longitude": "103.754955", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 248, "latitude": "1.298882", "longitude": "103.670625", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 249, "latitude": "1.468414", "longitude": "103.827653", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 250, "latitude": "1.454827", "longitude": "103.875066", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 251, "latitude": "1.320030", "longitude": "104.068945", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 252, "latitude": "1.309099", "longitude": "104.167063", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 253, "latitude": "1.550973", "longitude": "104.391917", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 254, "latitude": "1.503892", "longitude": "104.788840", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 255, "latitude": "2.011157", "longitude": "104.598957", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 256, "latitude": "2.586358", "longitude": "104.881831", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 257, "latitude": "6.019366", "longitude": "107.813849", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 258, "latitude": "11.476629", "longitude": "112.533645", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 259, "latitude": "12.859054", "longitude": "114.041405", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 260, "latitude": "3.405790", "longitude": "112.938070", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 261, "latitude": "3.338854", "longitude": "112.974137", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 262, "latitude": "3.326502", "longitude": "112.888031", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 263, "latitude": "3.292406", "longitude": "112.881641", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 264, "latitude": "3.314064", "longitude": "112.859390", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 265, "latitude": "3.242826", "longitude": "112.874379", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 266, "latitude": "3.265613", "longitude": "113.058311", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 267, "latitude": "3.264042", "longitude": "113.059317", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 268, "latitude": "3.263948", "longitude": "113.059046", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 269, "latitude": "3.264576", "longitude": "113.063456", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 270, "latitude": "4.752337", "longitude": "114.441296", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 271, "latitude": "4.709299", "longitude": "114.439743", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 272, "latitude": "5.186222", "longitude": "115.242825", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 273, "latitude": "6.090130", "longitude": "116.036776", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 274, "latitude": "6.450702", "longitude": "115.438320", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 275, "latitude": "7.390290", "longitude": "115.854898", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 276, "latitude": "14.542572", "longitude": "120.809311", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 277, "latitude": "14.535718", "longitude": "120.833786", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 278, "latitude": "17.776272", "longitude": "117.785940", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 279, "latitude": "19.046750", "longitude": "119.326482", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 280, "latitude": "20.705399", "longitude": "120.544962", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 281, "latitude": "22.811847", "longitude": "120.201185", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 282, "latitude": "22.811749", "longitude": "120.201194", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 283, "latitude": "18.459451", "longitude": "114.275866", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 284, "latitude": "24.251253", "longitude": "120.498327", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 285, "latitude": "24.251476", "longitude": "120.498319", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 286, "latitude": "25.164509", "longitude": "119.017647", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 287, "latitude": "21.786868", "longitude": "113.326634", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 288, "latitude": "21.903897", "longitude": "113.216681", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 289, "latitude": "22.161089", "longitude": "114.138759", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 290, "latitude": "22.090936", "longitude": "114.172118", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 291, "latitude": "22.574644", "longitude": "114.431814", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 292, "latitude": "22.589218", "longitude": "114.429861", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 293, "latitude": "22.787809", "longitude": "116.475902", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 294, "latitude": "19.981414", "longitude": "110.055185", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 295, "latitude": "19.780320", "longitude": "109.154324", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 296, "latitude": "19.779243", "longitude": "109.033733", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 297, "latitude": "21.421093", "longitude": "109.519039", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 298, "latitude": "21.588657", "longitude": "108.359942", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 299, "latitude": "27.346684", "longitude": "124.330945", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 300, "latitude": "29.651948", "longitude": "122.755584", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 301, "latitude": "30.099942", "longitude": "122.279800", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 302, "latitude": "29.898362", "longitude": "122.090202", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 303, "latitude": "29.897416", "longitude": "122.088766", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 304, "latitude": "30.600548", "longitude": "122.104486", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 305, "latitude": "30.600593", "longitude": "122.104527", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 306, "latitude": "31.326053", "longitude": "121.699905", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 307, "latitude": "32.071130", "longitude": "121.775212", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 308, "latitude": "32.524873", "longitude": "122.095158", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 309, "latitude": "32.548836", "longitude": "121.431095", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 310, "latitude": "32.306244", "longitude": "123.820900", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 311, "latitude": "32.628060", "longitude": "125.190477", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 312, "latitude": "33.068628", "longitude": "127.699276", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 313, "latitude": "33.471357", "longitude": "128.063343", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 314, "latitude": "34.335696", "longitude": "128.077827", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 315, "latitude": "34.597873", "longitude": "127.991680", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 316, "latitude": "34.604714", "longitude": "127.973148", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 317, "latitude": "34.650683", "longitude": "127.905935", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 318, "latitude": "34.660850", "longitude": "127.891593", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 319, "latitude": "34.752975", "longitude": "127.793119", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 320, "latitude": "34.883063", "longitude": "127.791727", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 321, "latitude": "34.883081", "longitude": "127.791573", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 322, "latitude": "34.688849", "longitude": "129.074214", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 323, "latitude": "34.854107", "longitude": "128.796566", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 324, "latitude": "34.922409", "longitude": "128.776012", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 325, "latitude": "34.878406", "longitude": "128.713422", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 326, "latitude": "34.906533", "longitude": "128.605755", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 327, "latitude": "34.949063", "longitude": "128.568921", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 328, "latitude": "34.949701", "longitude": "128.437478", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 329, "latitude": "34.948233", "longitude": "128.438211", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 330, "latitude": "35.008773", "longitude": "129.058684", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 331, "latitude": "35.503189", "longitude": "129.445975", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 332, "latitude": "35.532734", "longitude": "129.747321", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 333, "latitude": "35.678651", "longitude": "129.791251", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 334, "latitude": "35.941494", "longitude": "129.865743", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 335, "latitude": "37.216387", "longitude": "129.529009", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 336, "latitude": "34.143436", "longitude": "125.308327", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 337, "latitude": "34.575061", "longitude": "125.166917", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 338, "latitude": "35.807596", "longitude": "124.679183", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 339, "latitude": "34.682323", "longitude": "126.254321", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 340, "latitude": "36.323979", "longitude": "126.441780", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 341, "latitude": "36.998743", "longitude": "126.782380", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 342, "latitude": "36.999754", "longitude": "126.780915", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 343, "latitude": "37.337560", "longitude": "126.592006", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 344, "latitude": "37.337605", "longitude": "126.590080", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 345, "latitude": "37.337533", "longitude": "126.584691", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 346, "latitude": "37.337526", "longitude": "126.582553", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 347, "latitude": "34.035815", "longitude": "130.850948", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 348, "latitude": "33.929041", "longitude": "130.800586", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 349, "latitude": "33.276178", "longitude": "131.712162", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 350, "latitude": "33.948019", "longitude": "132.130917", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 351, "latitude": "34.338012", "longitude": "132.339664", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 352, "latitude": "38.813915", "longitude": "122.036726", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 353, "latitude": "34.433118", "longitude": "133.786463", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 354, "latitude": "34.763799", "longitude": "134.690003", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 355, "latitude": "34.763866", "longitude": "134.690067", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 356, "latitude": "34.552081", "longitude": "135.403702", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 357, "latitude": "34.552536", "longitude": "135.413710", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 358, "latitude": "34.565958", "longitude": "135.404430", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 359, "latitude": "33.986951", "longitude": "135.063537", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 360, "latitude": "34.972334", "longitude": "136.663088", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 361, "latitude": "34.999142", "longitude": "136.697923", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 362, "latitude": "34.969952", "longitude": "136.817698", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 363, "latitude": "34.976034", "longitude": "136.822047", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 364, "latitude": "35.023248", "longitude": "138.499279", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 365, "latitude": "35.400387", "longitude": "139.640886", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 366, "latitude": "35.460976", "longitude": "139.718465", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 367, "latitude": "35.461123", "longitude": "139.718505", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 368, "latitude": "35.469875", "longitude": "139.738781", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 369, "latitude": "35.470021", "longitude": "139.738731", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 370, "latitude": "35.346365", "longitude": "139.820779", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 371, "latitude": "35.342144", "longitude": "139.823035", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 372, "latitude": "35.472910", "longitude": "139.965230", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 373, "latitude": "35.474378", "longitude": "139.969756", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 374, "latitude": "36.478913", "longitude": "140.626295", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 375, "latitude": "37.849923", "longitude": "140.956127", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 376, "latitude": "38.276292", "longitude": "141.032166", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 377, "latitude": "38.002639", "longitude": "139.230471", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 378, "latitude": "37.527632", "longitude": "138.024906", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 379, "latitude": "42.931508", "longitude": "140.315684", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 380, "latitude": "38.855326", "longitude": "118.732431", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 381, "latitude": "38.917583", "longitude": "118.548249", "isLNG": true, "IN": true, "OUT": true}
+	{"code": 382, "latitude": "38.927654", "longitude": "117.876231", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 383, "latitude": "38.754055", "longitude": "117.715015", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 384, "latitude": "35.192327", "longitude": "120.286508", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 385, "latitude": "35.575832", "longitude": "119.760405", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 386, "latitude": "46.389582", "longitude": "142.748079", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 387, "latitude": "46.390020", "longitude": "142.786798", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 388, "latitude": "46.395279", "longitude": "142.689553", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 389, "latitude": "46.608986", "longitude": "142.896300", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 390, "latitude": "11.215950", "longitude": "101.846190", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 391, "latitude": "12.566168", "longitude": "101.205830", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 392, "latitude": "12.649726", "longitude": "101.155275", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 393, "latitude": "12.652464", "longitude": "101.153873", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 394, "latitude": "12.673586", "longitude": "98.441859", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 395, "latitude": "16.420653", "longitude": "96.260955", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 396, "latitude": "-5.916917", "longitude": "106.646195", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 397, "latitude": "-8.320437", "longitude": "115.373950", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 398, "latitude": "-17.701715", "longitude": "115.515723", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 399, "latitude": "-20.143468", "longitude": "117.035657", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 400, "latitude": "-20.496095", "longitude": "116.746166", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 401, "latitude": "-20.586980", "longitude": "116.763898", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 402, "latitude": "-20.587025", "longitude": "116.763800", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 403, "latitude": "-20.591004", "longitude": "116.762594", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 404, "latitude": "-20.591038", "longitude": "116.762550", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 405, "latitude": "-20.591063", "longitude": "116.762467", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 406, "latitude": "-20.604836", "longitude": "116.755168", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 407, "latitude": "-20.604753", "longitude": "116.755123", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 408, "latitude": "-20.357533", "longitude": "116.483617", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 409, "latitude": "-20.332238", "longitude": "116.482997", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 410, "latitude": "-20.331948", "longitude": "116.504646", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 411, "latitude": "-20.331517", "longitude": "116.526580", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 412, "latitude": "-20.767608", "longitude": "115.744656", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 413, "latitude": "-20.813288", "longitude": "115.493350", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 414, "latitude": "-20.813271", "longitude": "115.491000", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 415, "latitude": "-20.813285", "longitude": "115.490925", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 416, "latitude": "-21.676429", "longitude": "115.007177", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 417, "latitude": "-21.676389", "longitude": "115.007236", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 418, "latitude": "-0.006221", "longitude": "117.635490", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 419, "latitude": "0.011336", "longitude": "117.621431", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 420, "latitude": "0.083084", "longitude": "117.486241", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 421, "latitude": "0.097361", "longitude": "117.479923", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 422, "latitude": "0.097745", "longitude": "117.479981", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 423, "latitude": "1.724635", "longitude": "125.862448", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 424, "latitude": "-13.689207", "longitude": "123.276117", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 425, "latitude": "-2.432584", "longitude": "132.723236", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 426, "latitude": "-2.406166", "longitude": "133.035482", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 427, "latitude": "-2.425139", "longitude": "133.133521", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 428, "latitude": "-12.046223", "longitude": "129.327123", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 429, "latitude": "-12.257073", "longitude": "130.662716", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 430, "latitude": "-12.524410", "longitude": "130.849522", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 431, "latitude": "-12.508729", "longitude": "130.914001", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 432, "latitude": "-12.508634", "longitude": "130.913965", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 433, "latitude": "21.408594", "longitude": "91.815003", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 434, "latitude": "21.535928", "longitude": "91.818048", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 435, "latitude": "21.557943", "longitude": "91.815524", "isLNG": true, "IN": true, "OUT": false}
+	{"code": 436, "latitude": "-9.302904", "longitude": "146.830565", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 437, "latitude": "-9.340001", "longitude": "146.986844", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 438, "latitude": "-9.339988", "longitude": "146.986888", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 439, "latitude": "-23.849881", "longitude": "151.629569", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 440, "latitude": "-23.866083", "longitude": "151.629020", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 441, "latitude": "-23.783645", "longitude": "151.201356", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 442, "latitude": "-23.783708", "longitude": "151.201273", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 443, "latitude": "-23.783568", "longitude": "151.201267", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 444, "latitude": "-23.783567", "longitude": "151.201201", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 445, "latitude": "-23.777945", "longitude": "151.195477", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 446, "latitude": "-23.777952", "longitude": "151.195448", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 447, "latitude": "-23.762753", "longitude": "151.184692", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 448, "latitude": "-23.762717", "longitude": "151.184849", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 449, "latitude": "3.782629", "longitude": "8.698004", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 450, "latitude": "3.038768", "longitude": "9.831118", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 451, "latitude": "4.427145", "longitude": "7.145580", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 452, "latitude": "4.427169", "longitude": "7.145538", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 453, "latitude": "4.427304", "longitude": "7.145674", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 454, "latitude": "4.422138", "longitude": "7.141352", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 455, "latitude": "-6.367175", "longitude": "11.988725", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 456, "latitude": "-8.726442", "longitude": "13.245256", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 457, "latitude": "-23.890636", "longitude": "13.487884", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 458, "latitude": "-33.767349", "longitude": "18.057958", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 459, "latitude": "-33.876800", "longitude": "25.687311", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 460, "latitude": "71.273328", "longitude": "72.092801", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 461, "latitude": "71.273277", "longitude": "72.093078", "isLNG": true, "IN": false, "OUT": true}
+	{"code": 462, "latitude": "71.274702", "longitude": "72.094689", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 463, "latitude": "71.277113", "longitude": "72.102164", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 464, "latitude": "71.277096", "longitude": "72.102413", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 465, "latitude": "71.278510", "longitude": "72.103900", "isLNG": false, "IN": None, "OUT": None}
+	{"code": 466, "latitude": "71.349876", "longitude": "72.416264", "isLNG": false, "IN": None, "OUT": None}
 }

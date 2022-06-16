@@ -11,13 +11,6 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true
-        },
-        {
-            "name": "PowerShell Launch Current File",
-            "type": "PowerShell",
-            "request": "launch",
-            "script": "${file}",
-            "cwd": "${file}"
         }
     ]
 }

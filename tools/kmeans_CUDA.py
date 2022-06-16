@@ -1,65 +1,82 @@
 import torch
 
 class KMEANS_CUDA:
-    def __init__(self, n_clusters=400, max_iter=None, verbose=True, device = torch.device("cuda")):
-        self.n_cluster = n_clusters
+    def __init__(self, n_clusters, distance_function = "cos", iter=1, batch_size=0, thresh=1e-5, norm_center=False):
         self.n_clusters = n_clusters
-        self.labels = None
         self.labels_ = None
-        self.dists = None  # shape: [x.shape[0],n_cluster]
+        self.dists = float("inf")  # shape: [x.shape[0],n_cluster]
         self.centers = None
         self.cluster_centers_ = None
-        self.variation = torch.Tensor([float("Inf")]).to(device)
-        self.verbose = verbose
-        self.started = False
-        self.representative_samples = None
-        self.max_iter = max_iter
-        self.count = 0
-        self.device = device
+        self.iter=iter
+        self.batch_size=batch_size
+        self.thresh=thresh
+        self.norm_center=norm_center
+        if distance_function == "l2":
+            self.distance_function = self.l2_distance
+        elif distance_function == "cos":
+            self.distance_function = self.cosine_distance
+    
+    def fit(self, X):
+        obs = torch.from_numpy(X).cuda()
+        torch.cuda.synchronize()
+        for i in range(self.iter):
+            if self.batch_size == 0:
+                self.batch_size == obs.shape[0]
+            labels, centers, distance = self._kmeans_batch(obs,
+                                            self.n_clusters,
+                                            self.norm_center,
+                                            self.distance_function,
+                                            self.batch_size,
+                                            self.thresh)
+            self.labels_ = labels.cpu().numpy()
+            if distance < self.dists:
+                self.centers = centers
+                self.dists = distance
+                self.cluster_centers_ = centers.cpu().numpy()
+        torch.cuda.synchronize()
+        return self
 
-    def fit(self, x):
-        # 随机选择初始中心点，想更快的收敛速度可以借鉴sklearn中的kmeans++初始化方法
-        x = torch.from_numpy(x).to(self.device)
-        init_row = torch.randint(0, x.shape[0], (self.n_clusters,)).to(self.device)
-        init_points = x[init_row]
-        self.centers = init_points
+    def _kmeans_batch(self, obs: torch.Tensor, k: int, norm_center, distance_function, batch_size, thresh):
+        # k x D
+        centers = obs[torch.randperm(obs.size(0))[:k]].clone()
+        history_distances = [float('inf')]
+        if batch_size == 0:
+            batch_size = obs.shape[0]
         while True:
-            # 聚类标记
-            self.nearest_center(x)
-            # 更新中心点
-            self.update_center(x)
-            if self.verbose:
-                continue
-            if torch.abs(self.variation) < 1e-3 and self.max_iter is None:
+            # (N x D, k x D) -> N x k
+            segs = torch.split(obs, batch_size)
+            seg_center_dis = []
+            seg_center_ids = []
+            for seg in segs:
+                distances = distance_function(seg, centers)
+                center_dis, center_ids = distances.min(dim=1)
+                seg_center_ids.append(center_ids)
+                seg_center_dis.append(center_dis)
+            obs_center_dis_mean = torch.cat(seg_center_dis).mean()
+            obs_center_ids = torch.cat(seg_center_ids)
+            history_distances.append(obs_center_dis_mean.item())
+            diff = history_distances[-2] - history_distances[-1]
+            if diff < thresh:
+                if diff < 0:
+                    continue
                 break
-            elif self.max_iter is not None and self.count == self.max_iter:
-                break
-            self.count += 1
-        self.representative_sample()
-        self.labels_ = self.labels.cpu().numpy()
-        self.cluster_centers_ = self.centers.cpu().numpy()
+            for i in range(k):
+                obs_id_in_cluster_i = obs_center_ids == i
+                if obs_id_in_cluster_i.sum() == 0:
+                    continue
+                obs_in_cluster = obs.index_select(0, obs_id_in_cluster_i.nonzero().squeeze())
+                c = obs_in_cluster.mean(dim=0)
+                if norm_center:
+                    c /= c.norm()
+                centers[i] = c
+        return obs_center_ids, centers, history_distances[-1]
 
-    def nearest_center(self, x):
-        labels = torch.empty((x.shape[0],)).long().to(self.device)
-        dists = torch.empty((0, self.n_clusters)).to(self.device)
-        for i, sample in enumerate(x):
-            dist = torch.sum(torch.mul(sample - self.centers, sample - self.centers), (1))
-            labels[i] = torch.argmin(dist)
-            dists = torch.cat([dists, dist.unsqueeze(0)], (0))
-        self.labels = labels
-        if self.started:
-            self.variation = torch.sum(self.dists - dists)
-        self.dists = dists
-        self.started = True
+    def cosine_distance(self, obs, centers):
+        obs_norm = obs / obs.norm(dim=1, keepdim=True)
+        centers_norm = centers / centers.norm(dim=1, keepdim=True)
+        cos = torch.matmul(obs_norm, centers_norm.transpose(1, 0))
+        return 1 - cos
 
-    def update_center(self, x):
-        centers = torch.empty((0, x.shape[1])).to(self.device)
-        for i in range(self.n_clusters):
-            mask = self.labels == i
-            cluster_samples = x[mask]
-            centers = torch.cat([centers, torch.mean(cluster_samples, (0)).unsqueeze(0)], (0))
-        self.centers = centers
-
-    def representative_sample(self):
-        # 查找距离中心点最近的样本，作为聚类的代表样本，更加直观
-        self.representative_samples = torch.argmin(self.dists, (0))
+    def l2_distance(self, obs, centers):
+        dis = ((obs.unsqueeze(dim=1) - centers.unsqueeze(dim=0)) ** 2.0).sum(dim=-1).squeeze()
+        return dis
