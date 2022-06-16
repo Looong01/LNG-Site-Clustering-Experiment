@@ -6,9 +6,6 @@ from predict import predict
 from tools.kmeans_CUDA import KMEANS_CUDA
 #使用sklearn
 from sklearn.cluster import KMeans, DBSCAN, OPTICS, AgglomerativeClustering
-#不显示警告等无用信息
-import warnings
-warnings.filterwarnings('ignore')
 #加载时间工具
 import time
 
