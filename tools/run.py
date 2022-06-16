@@ -1,5 +1,5 @@
 #导入工具包
-from preprocess import preprocess, distance, delete_file
+from preprocess import preprocess, delete_file
 from data_loader import data_loader
 from results_process import results_process
 from predict import predict
@@ -70,7 +70,7 @@ print("耗时：", end - start, "秒")
 
 #使用DBSCAN算法聚合数据
 start = time.time()
-clustering_dbscan = DBSCAN(eps=1000, min_samples=3, n_jobs=-1,metric=distance).fit(data)
+clustering_dbscan = DBSCAN(eps=0.05, min_samples=3).fit(coord)
 end = time.time()
 dic = results_process(clustering_dbscan, data, "DBSCAN", filename="lng_results_list(DBSCAN).json")
 print("DBSCAN")
@@ -85,7 +85,7 @@ print("耗时：", end - start, "秒")
 
 #使用OPTICS算法聚合数据
 start = time.time()
-clustering_optics = OPTICS(min_samples=10).fit(data)
+clustering_optics = OPTICS(min_samples=15).fit(coord)
 end = time.time()
 dic = results_process(clustering_optics, data, "OPTICS", filename="lng_results_list(OPTICS).json")
 print("OPTICS")
