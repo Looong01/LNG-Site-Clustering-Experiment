@@ -28,16 +28,21 @@
 
 #### 软件架构
 1.  Windows 10/11 Pro
-2.  Python 3.9/3.10
-3.  (可选)Visual Studio Code等IDE
-4.  (可选)Anaconda/Miniconda等包管理工具
+2.  Python 3.9
+3.  Anaconda3 2022.05
+4.  Cuda 11.3及以上
+5.  (可选)Visual Studio Code等IDE
+6.  (可选)Anaconda/Miniconda等包管理工具
 
 #### 安装教程
 
 ```
-1.  pip install pandas numpy matplotlib scikit-learn
-2.  pip install jupyter notebook
-3.  下载数据集”lng2.csv“，并移至data文件夹中（https://yunpan.360.cn/surl_y2vpVKtEjLk （提取码：ed65）)
+1.  conda create -n LNG python=3.9
+2.  conda activate LNG
+3.  conda install pandas numpy matplotlib scikit-learn
+4.  conda install jupyter notebook -c conda-forge
+5.  conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+6.  下载数据集”lng2.csv“，并移至data文件夹中（https://yunpan.360.cn/surl_y2vpVKtEjLk （提取码：ed65）)
 ```
 
 #### 使用说明

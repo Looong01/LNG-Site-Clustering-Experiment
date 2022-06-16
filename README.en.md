@@ -29,15 +29,20 @@ Goal: Use algorithms to quickly and accurately identify LNG sites
 #### Software Architecture
 1.  Windows 10/11 Pro  
 2.  Python 3.9/3.10  
-3.  (Optional) Visual Studio Code and other IDEs  
-4.  (Optional) Package management tools such as Anaconda/Miniconda  
+3.  Anaconda3 2022.05
+4.  Cuda 11.3 or above
+5.  (Optional) Visual Studio Code and other IDEs  
+6.  (Optional) Package management tools such as Anaconda/Miniconda  
 
 #### Installation
 
 ```
-1.  pip install pandas numpy matplotlib scikit-learn
-2.  pip install jupyter notebook
-3.  Download the dataset "lng2.csv" from (https://yunpan.360.cn/surl_y2vpVKtEjLk （Extract code: ed65）) and move it to the folder "data"
+1.  conda create -n LNG python=3.9
+2.  conda activate LNG
+3.  conda install pandas numpy matplotlib scikit-learn
+4.  conda install jupyter notebook -c conda-forge
+5.  conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+6.  Download the dataset "lng2.csv" from (https://yunpan.360.cn/surl_y2vpVKtEjLk （Extract code: ed65）) and move it to the folder "data"
 ```
 
 #### Instructions
